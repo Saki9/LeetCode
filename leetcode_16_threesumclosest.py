@@ -6,7 +6,7 @@ class Solution:
     @title 16. 最接近的三数之和
     @method 双指针
 
-    @desc 排序 nums，遍历 nums 的每一个元素 nums[i]，
+    排序 nums，遍历 nums 的每一个元素 nums[i]，
     使头指针指向 i + 1，尾指针指向 len(nums) - 1，
     根据三个元素的和与 target 比较的结果动态调整双指针，
     最终返回过程中记录的最接近 target 的三数之和。
