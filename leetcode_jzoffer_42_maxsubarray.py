@@ -14,6 +14,7 @@ class Solution:
     使 dp[i] = nums[i] + dp[i - 1],
     最后返回 dp 中的最大值，代表全局最大值。
     """
+
     def maxSubArray(self, nums: List[int]) -> int:
         dp = nums[:]
         for i in range(len(nums))[1:]:

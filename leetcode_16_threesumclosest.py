@@ -11,6 +11,7 @@ class Solution:
     根据三个元素的和与 target 比较的结果动态调整双指针，
     最终返回过程中记录的最接近 target 的三数之和。
     """
+
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         nums, result = sorted(nums), nums[0] + nums[1] + nums[-1]
 
