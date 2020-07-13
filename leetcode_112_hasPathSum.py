@@ -23,6 +23,7 @@ class Solution:
             return self.calculator(root.left, sum, total + root.val) or \
                    self.calculator(root.right, sum, total + root.val)
 
+
 t = TreeNode(8)
 t.left = TreeNode(9)
 t.right = TreeNode(-6)
